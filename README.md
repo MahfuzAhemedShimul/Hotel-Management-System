@@ -1,1 +1,1 @@
-# Hotel-Management-System
+A comprehensive desktop application for hotel management built with Python, Tkinter, and MySQL. This system helps manage customer data, room bookings, restaurant orders, laundry services, and game facilities with automatic billing.
