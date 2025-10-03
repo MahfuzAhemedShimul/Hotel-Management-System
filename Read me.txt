@@ -1,0 +1,20 @@
+# 🏨Mahfuz Ahmed Shimul Paradise
+A comprehensive desktop application for hotel management built with Python, Tkinter, and MySQL. This system helps manage customer data, room bookings, restaurant orders, laundry services, and game facilities with automatic billing.
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
+![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
+
+## ✨ Features
+
+- **Customer Management**: Store customer details, check-in/check-out dates
+- **Room Booking**: Multiple room types (Suite, Delux, Double, Single) with dynamic pricing
+- **Restaurant Management**: Food and beverage ordering system
+- **Laundry Services**: Track laundry items with individual pricing
+- **Game Facilities**: Manage game services and billing
+- **Automated Billing**: Calculate total bills including service charges
+- **MySQL Integration**: Persistent data storage for all transactions
+- **User-Friendly GUI**: Clean and intuitive interface with background image
+
+
+##Read Requirement to run the project

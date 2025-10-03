@@ -1,0 +1,62 @@
+## 🛠️ Installation
+
+### Prerequisites
+- Python 3.8 or higher
+- MySQL Server
+- XAMPP (recommended for easy MySQL setup)
+
+###
+
+Step 1: Clone the Repository
+
+Step 2: Install Dependencies
+bash
+pip install -r requirements.txt
+
+Step 3: Database Setup
+Start your MySQL server 
+
+Create a database named hotel
+
+Create the required table using the SQL below:
+
+sql
+CREATE DATABASE hotel;
+
+USE hotel;
+
+CREATE TABLE customers
+ (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    address TEXT,
+    check_in VARCHAR(50),
+    check_out VARCHAR(50),
+    room_rent DECIMAL(10,2),
+    food_bill DECIMAL(10,2),
+    laundry_bill DECIMAL(10,2),
+    game_bill DECIMAL(10,2),
+    service_charge DECIMAL(10,2),
+    total DECIMAL(10,2),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+Step 4: Configuration
+Update the MySQL connection details in hotel_management.py:
+
+python
+self.conn = mysql.connector.connect(
+    host="localhost",
+    user="root",       # Your MySQL username
+    password="23303255",   # Your MySQL password
+    database="hotel"
+)
+
+Step 5: Add Background Image
+Place a file named hotel.jpg in the project root directory.
+
+🚀 Usage
+Run the application:
+
+bash
+python hotel_management.py
